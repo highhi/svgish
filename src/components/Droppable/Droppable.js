@@ -1,7 +1,6 @@
 import { h, Component } from 'preact';
 import { ipcRenderer } from 'electron';
 import fileListStore from '../../store/file-list-store';
-import FileStore from '../../store/file-store';
 const style = require('./style.css');
 
 export default class Droppable extends Component {
