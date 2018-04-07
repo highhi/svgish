@@ -1,0 +1,42 @@
+{
+  "name": "svgish",
+  "version": "0.0.1",
+  "description": "Operate svgo from ui",
+  "main": "main.js",
+  "author": "highhi",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "watch:js": "webpack -w"
+  },
+  "dependencies": {
+    "bytes": "^3.0.0",
+    "classnames": "^2.2.5",
+    "fs-extra": "^5.0.0",
+    "linkstate": "^1.1.1",
+    "mobx": "^4.1.1",
+    "mobx-preact": "^2.0.0",
+    "preact": "^8.2.7",
+    "svgo": "^1.0.5",
+    "trash": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-preact": "^1.1.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "electron": "^1.8.4",
+    "electron-reloader": "^0.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.1.0",
+    "style-loader": "^0.20.3",
+    "webpack": "3.10.0"
+  }
+}

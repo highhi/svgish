@@ -1,0 +1,14 @@
+@import './reboot.css';
+@import './vars.css';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-size: var(--fs-size);
+  font-family: 'Muli', sans-serif;
+  color: var(--tx-color);
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "stage-1",
+    "preact",
+    ["env", {
+      "useBuiltIns": false,
+      "targets": {
+        "electorn": "current",
+        "module": false
+      }
+    }]
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties"
+  ]
+}

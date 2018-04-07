@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" class="global">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVGISH</title>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
+  <link rel="preload" href="./<%= htmlWebpackPlugin.files.chunks.manifest.entry %>" as="script">
+  <link rel="preload" href="./<%= htmlWebpackPlugin.files.chunks.vendor.entry %>" as="script">
+  <link rel="preload" href="./<%= htmlWebpackPlugin.files.chunks.index.entry %>" as="script">
+  <link rel="preload" href="./<%= htmlWebpackPlugin.files.css[0] %>" as="style">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+  <link rel="stylesheet" href="./<%= htmlWebpackPlugin.files.css[0] %>">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="./<%= htmlWebpackPlugin.files.chunks.manifest.entry %>" defer></script>
+  <script src="./<%= htmlWebpackPlugin.files.chunks.vendor.entry %>" defer></script>
+  <script src="./<%= htmlWebpackPlugin.files.chunks.index.entry %>" defer></script>
+</body>
+</html>
