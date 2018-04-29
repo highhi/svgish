@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/main",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "target": "es2017",
+    "lib": ["es2017", "dom"],    
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/main/**/*"
+  ],
+  "exclude": [
+    ".git",
+    "node_modules"
+  ]
+}
